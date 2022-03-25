@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    font-family: 'Oswald, sans-serif';
+    font-family: 'Oswald', sans-serif;
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
@@ -14,12 +14,14 @@ h1 {
     color: #fff;
     font-size: 64px;
     text-transform: uppercase;
-    max-width: 849px;
+    max-width: 900px;
     margin: 0 auto;
     line-height: 1.5;
+    padding-top: 120px;
 }
 
-h1+p {
+
+h1 + p {
     color: #fff;
     text-transform: uppercase;
 }
@@ -149,14 +151,22 @@ h2 {
     margin-bottom: 0;
 }
 
+
 .box-contact button {
     background-color: #fff;
     border: none;
-    padding: 15px 20px;
+    padding: 15px 50px;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #000;
+    font-weight: bold;
+}
+
+.zapros-img {
+    position: absolute;
+    margin-left: -30px;
+
 }
 
 .grid {
@@ -231,12 +241,19 @@ h2 {
     height: 100%;
 }
 
+
+
 .box-feedback {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 55px;
     margin-bottom: 123px;
+}
+
+.fb-icon {
+  margin-bottom: -75px;
+  margin-left: 30px;  
 }
 
 .box-feedback>div {
@@ -307,6 +324,7 @@ h2 {
 .footer {
     background: #404149;
     padding: 30px 0 28px;
+    margin-top: 129px
 }
 
 .box-footer {
